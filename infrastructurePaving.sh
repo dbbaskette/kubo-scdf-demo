@@ -1,6 +1,6 @@
 export demo_home=${PWD}
-export prefix=piv- ##ADD A PREFIX FOR GCP OBJECTS SUCH AS TEST-
-export network=kubonet ## ADD NAME OF NETWORK
+export prefix=s1p-pks- ##ADD A PREFIX FOR GCP OBJECTS SUCH AS TEST-
+export network=pks-net ## ADD NAME OF NETWORK
 export subnet_ip_prefix="10.0.1" # Your subnet pref
 export project_id=$(gcloud config get-value project)
 export region=us-east1 # region that you will deploy Kubo in
