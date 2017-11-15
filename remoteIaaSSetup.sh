@@ -1,3 +1,5 @@
+source ./remoteSetupEnv.sh
+
 cd /share/kubo-deployment/docs/user-guide/routing/gcp
 export kubo_env_name=kubo
 export state_dir=~/kubo-env/${kubo_env_name}
